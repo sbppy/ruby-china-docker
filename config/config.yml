@@ -42,7 +42,7 @@ site_configs: &site_configs
 
 defaults: &defaults
   <<: *site_configs
-  app_name: "Ruby China | Open Source"
+  app_name: "droiders.org | Open Source"
   domain: "localhost:3000"
   https: false
   admin_emails:
