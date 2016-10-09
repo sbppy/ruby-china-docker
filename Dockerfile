@@ -9,7 +9,8 @@ MAINTAINER Jason Lee "https://github.com/huacnlee"
 
 RUN useradd ruby -s /bin/bash -m -U &&\
     mkdir -p /var/www && cd /var/www &&\
-    git clone https://github.com/ruby-china/ruby-china.git &&\
+#    git clone https://github.com/ruby-china/ruby-china.git &&\
+    git clone https://github.com/DroidersOrg/droiders.org.git ruby-china &&\
     chown -R ruby:ruby /var/www &&\
     cd ruby-china &&\
     sudo -u ruby bundle install --deployment
