@@ -5,6 +5,8 @@ FROM rubychina/base:latest
 
 ENV RAILS_ENV 'production'
 
+EXPOSE 80
+
 MAINTAINER Jason Lee "https://github.com/huacnlee"
 
 RUN useradd ruby -s /bin/bash -m -U &&\
